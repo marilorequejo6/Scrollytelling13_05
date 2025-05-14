@@ -2,6 +2,9 @@ body, html {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    /* movil */
+    scroll-behavior: smooth;
+    overflow-x: hidden;
   }
   
 .bg {
@@ -29,11 +32,14 @@ body, html {
 
 .section {
   min-height: 100vh;
-  padding: 3rem;
+  padding: 2rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 2rem;
+  font-size: 1.4rem;
+  /* movil */
+  line-height: 1.6;
+  text-align: center;
 }
 
 .white {
